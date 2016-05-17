@@ -1,0 +1,31 @@
+while (true) {
+  if (scan(0) <= 70) {
+    swim(0);
+    cannon(0, scan(0));
+  }if (scan(90) <= 70) {
+    swim(90);
+    cannon(90, scan(90));
+  }if (scan(180) <= 70) {
+    swim(180);
+    cannon(180, scan(180));
+  } if (scan(270) <= 70) {
+    swim(270);
+    cannon(270, scan(270));
+  }if (scan(45) <= 70) {
+    swim(45);
+    cannon(45, scan(45));
+  }if (scan(135) <= 70) {
+    swim(135);
+    cannon(135, scan(135));
+  }if (scan(225) <= 70) {
+    swim(225);
+    cannon(225, scan(225));
+  }if (scan(315) <= 70) {
+    swim(315);
+    cannon(315, scan(315));
+  }
+  else {
+    stop();
+    swim(loc_x()*loc_x()*loc_x())
+  }
+}
